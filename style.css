@@ -1,0 +1,182 @@
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 150px;
+	margin-top: 35px;
+	margin-right: 150px;
+	border-bottom: 1px solid grey;
+	padding-bottom: 25px;
+}
+.head1{
+	display: flex;
+	flex-direction: row;
+}
+.head2{
+	display: flex;
+	flex-direction: row;
+}
+.logo{
+	width: 120px;
+	height: 17px;
+	margin-top: 15px;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+li{
+	list-style: none;
+	padding-left: 35px;
+}
+a{
+	text-decoration: none;
+	color: grey;
+	padding-left: 10px;
+}
+.avatar{
+	width: 60px;
+	padding-left: 30px;
+	margin-top: 5px;
+}
+.symbol{
+	width: 25px;
+	height: 25px;
+	margin-top: 22px;
+    margin-right: 20px;
+
+}
+li a:hover{
+    color: orange;
+}
+.product1{
+	margin-left: 200px;
+	border-radius: 10px;
+	width: 460px;
+	margin-top: 100px;
+}
+.productsmall{
+	margin-left: 180px;
+	display: flex;
+	margin-top: 20px;
+}
+.productsmall img{
+	width: 92px;
+	padding: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+.content{
+	display: flex;
+	flex-direction: row;	
+}
+.leftside{
+	margin-left: 150px;
+	margin-right: 200px;
+	margin-top: 120px;
+}
+.leftside h4{
+	color: hsl(26, 100%, 55%);
+	font-family: "Kumbh Sans";
+	letter-spacing: 1px;
+
+}
+.leftside h2{
+	color: hsl(220, 13%, 13%);
+	font-family: "Kumbh Sans";
+	font-size: 50px;
+	position: relative;
+	bottom: 20px;
+}
+.leftside p{
+	font-family: "kumbh sans";
+	font-size: 16px;
+	color: hsl(219, 9%, 45%);
+	position: relative;
+	bottom: 40px;
+
+
+}
+body{
+	background-color: hsl(223, 64%, 98%);
+
+}
+.price{
+	font-family: "kumbh sans";
+	font-size: 40px;
+	font-weight: 900;
+	position: relative;
+	bottom: 20px;
+}
+.offer button{
+	border-radius: 5px;
+	background-color: hsl(25, 100%, 94%);
+	color: hsl(26, 100%, 55%);
+	font-family: "kumbh sans";
+	border: none;
+	font-weight: 800;
+	position: relative;
+	bottom: 28px;
+	padding: 5px;
+	left: 10px;
+}
+.oldprice{
+	font-family: "kumbh sans";
+	color: hsl(219, 9%, 45%);	
+	position: relative;
+	bottom: 12px;
+}
+.count button{
+	background-color:hsl(216, 36%, 95%);
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+    padding-bottom: 20px;
+	border:none;
+	font-family: "kumbh sans";
+	font-weight: 800;
+
+}
+.count .minus{
+	position: relative;
+	right: 35px;
+	bottom: 2px;
+	font-size: large;
+}
+.count .plus{
+	position: relative;
+	left:35px;
+	top: 2px;
+	font-size: large;
+}
+.leftside .cart{
+	  color: white;
+	  font-family: "kumbh sans";
+	  font-weight: 800;
+	  font-size: 15px;
+	  background-color: hsl(26, 100%, 55%);
+	  padding-left: 35px;
+	  padding-right: 35px;
+	  padding-top: 14px;
+	  padding-bottom: 14px;
+	  border: none;
+	  border-radius: 10px;
+	  position: relative;
+	  left: 10px;
+	  top: 3px;
+}
+.leftside .text{
+	position: relative;
+	bottom: 3px;
+
+}
+.leftside .cart img{
+	color: white;
+	position: relative;
+	right: 10px;
+
+}
